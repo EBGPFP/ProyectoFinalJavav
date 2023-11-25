@@ -1,3 +1,7 @@
+import entidades.Administrador;
+import DAO.GestionarEntidades;
+
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -43,9 +47,11 @@ public class Main {
 
 
 
+        //"Pablo@gmail.com","123"   Credenciales Administrador
 
-
-
+        /*GestionarEntidades gestor = new GestionarEntidades();
+        Administrador admin =  gestor.buscarAdministradorPorId("01");
+        System.out.println("El correo y contraseña del administrador es el siguiente:   "+admin.getEmail()+"  , "+admin.getPassword());*/
 
     }
 }
